@@ -1,6 +1,16 @@
 DdkNew::Application.routes.draw do
   resources :products
 
+#STATIC PAGES
+  root :to => 'sites#index'
+  get 'cart' => 'sites#cart#'
+  get 'order' => 'sites#order'
+
+
+  #%w(index contact_us faq blog supporters contributors how_it_works terms tour about resources).each do |route|
+  #  match route => "sites#{route}"
+  #end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
