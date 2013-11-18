@@ -1,0 +1,80 @@
+<div class="row">
+  <div class="large-12 columns">
+    <hgroup class="large-9 columns">
+      <h1>Grandma's Pizza</h1>
+
+      <h3 class="tagline">Yummy pizza at the best pizza place! You will love it...! </h3>
+    </hgroup>
+
+    <div class="large-3 columns text-right">
+      <label class="label round success">Call Us: 408-234-2346</label>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="large-7 columns">
+    <form action="" id="#order_form" style="background-color: white; padding: 15px">
+      <legend><h3>Place your order</h3></legend>
+      <span class="select"> Select size: </span>
+
+      <select id="pSize" name="sizeofpizza">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select>
+
+      <br>
+      <br>
+      Select Type:
+
+      <input type="radio" name="selectedpizza" value="pepperoni" checked/> Pepperoni
+      <input type="radio" name="selectedpizza" value="vegetarian"/> Vegetarian
+      <input type="radio" name="selectedpizza" value="combo"/> Combo
+
+      <br>
+      <br>
+      <input type="checkbox" name="cheese" value="cheese" name="selectedpizza" id="extraCheese" class="check"/>
+      <span> Extra cheese </span>
+
+      <br>
+      <br>
+      <span> Quantity </span>
+
+      <br>
+
+      <div class="row">
+        <div class="large-2 columns">
+          <input type="text" name="quantity" id="qty" class="left-align" value='1'/>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="button-group">
+        <input type="button" class="button" value="Calculate price" name="calculate" id="total"/>
+        <input type="button" class="button" id="addToCart" value="Add to cart" name="add to cart"/>
+        <a class="button success" value="go to cart" name="Go to cart" href="../cart"> Go to Cart </a>
+      </div>
+      <br>
+      <br>
+      <label style="font-size: 18px"> Price: <span id="price"/></label>
+      <br>
+      <br>
+      <label style="font-size: 20px"> Total Price: <span id="totalPrice"/></label>
+    </form>
+  </div>
+
+  <div class="large-5 columns">
+    <div class="flex-video">
+      <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+              src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=396+Ano+Nuevo+Ave,+Sunnyvale,+CA&amp;aq=0&amp;oq=396+&amp;sll=37.397161,-122.024121&amp;sspn=0.164742,0.307274&amp;ie=UTF8&amp;hq=&amp;hnear=396+Ano+Nuevo+Ave,+Sunnyvale,+Santa+Clara,+California+94085&amp;t=m&amp;ll=37.390277,-122.043858&amp;spn=0.023868,0.036564&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+      <br/>
+      <small>
+        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=396+Ano+Nuevo+Ave,+Sunnyvale,+CA&amp;aq=0&amp;oq=396+&amp;sll=37.397161,-122.024121&amp;sspn=0.164742,0.307274&amp;ie=UTF8&amp;hq=&amp;hnear=396+Ano+Nuevo+Ave,+Sunnyvale,+Santa+Clara,+California+94085&amp;t=m&amp;ll=37.390277,-122.043858&amp;spn=0.023868,0.036564&amp;z=14&amp;iwloc=A"
+           style="color:#0000FF;text-align:left">View Larger Map</a></small>
+    </div>
+  </div>
+</div>

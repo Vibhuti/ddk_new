@@ -1,0 +1,104 @@
+<div class="row">
+  <div large-12 columns>
+    <hgroup class="large-9 columns">
+      <h1>Grandma's Pizza</h1>
+
+      <h3 class="tagline">Yummy pizza at the best pizza place! You will love it...! </h3>
+    </hgroup>
+
+    <div class="large-3 columns text-right">
+      <label class="label round success">Call Us: 408-234-2346</label>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="large-8 columns">
+    <form data-abide action="" class="form" class="custom" id="finalize" style="background-color: white; padding: 15px">
+      <h3>Place your order</h3>
+
+      <div class="first-name-field">
+        <label>First Name:
+          <small>required</small>
+        </label>
+        <input type='text' required maxlength="20" placeholder="Enter first name" id="first_name"/>
+        <small class="error">first name is required and maximum 20 characters long.</small>
+      </div>
+
+      <div class="last-name-field">
+
+        <label>Last Name:
+          <small>required</small>
+        </label>
+        <input type='text' required maxlength="20" placeholder="Enter first name" id="last_name"/>
+        <small class="error">last name is required and maximum 25 characters long.</small>
+      </div>
+
+      <div class="Address-field">
+        <label> Delivery Address:</label>
+        <input type='text'/>
+      </div>
+
+      <div class="telephone-field">
+        <label>telephone
+          <small>required</small>
+        </label>
+        <input type='text' required pattern="telephone" title="Phone Number in the format of: 123-456-7890"/>
+        <small class="error">Phone Number format should be: 123-456-7890</small>
+      </div>
+
+      <div class="sales-type-field">
+        <label>Sales Type
+          <small>required</small>
+        </label>
+        <input required type="radio" id="cash" name="paymentType" value="cash"/> Cash
+        <input type="radio" id="credit" name="paymentType" value="credit"/> Credit<br><br>
+
+        <section id="creditDetails">
+
+          Credit Card Type:
+          <input type="radio" id="amex" name="cardType" value="AX"/> American Express
+          <input type="radio" id="visa" name="cardType" value="V"/> Visa
+
+          <div class="credit-card-no">
+            <label>Credit Card No:
+              <small>required</small>
+            </label>
+            <input type='text' required id="cardNumber"/>
+            <small class="error">Please provide valid credit card no.</small>
+          </div>
+
+          <div class="expiration-date">
+            <label>Credit Card Expiration date:
+              <small></small>
+            </label>
+            <input type='date'/>
+            <small class="error">Date format should be mm/dd/yyyy</small>
+          </div>
+        </section>
+      </div>
+
+      <br>
+      <label style="font-size: 18px"> Sales Amount: $ <span id="amount"/></label>
+      <br>
+      <br>
+      <input type="submit" class="button" value="Finalize" name="submit"/>
+    </form>
+
+
+  </div>
+
+  <div class="large-4 columns">
+    <div class="flex-video">
+      <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+              src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=396+Ano+Nuevo+Ave,+Sunnyvale,+CA&amp;aq=0&amp;oq=396+&amp;sll=37.397161,-122.024121&amp;sspn=0.164742,0.307274&amp;ie=UTF8&amp;hq=&amp;hnear=396+Ano+Nuevo+Ave,+Sunnyvale,+Santa+Clara,+California+94085&amp;t=m&amp;ll=37.390277,-122.043858&amp;spn=0.023868,0.036564&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+      <br/>
+      <small>
+        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=396+Ano+Nuevo+Ave,+Sunnyvale,+CA&amp;aq=0&amp;oq=396+&amp;sll=37.397161,-122.024121&amp;sspn=0.164742,0.307274&amp;ie=UTF8&amp;hq=&amp;hnear=396+Ano+Nuevo+Ave,+Sunnyvale,+Santa+Clara,+California+94085&amp;t=m&amp;ll=37.390277,-122.043858&amp;spn=0.023868,0.036564&amp;z=14&amp;iwloc=A"
+           style="color:#0000FF;text-align:left">View Larger Map</a>
+      </small>
+    </div>
+  </div>
+</div>

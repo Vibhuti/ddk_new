@@ -1,0 +1,53 @@
+body, #menu_toggle, .top-bar, .top-bar.expanded .title-area {
+    background: #f5f0e0 url(../images/home/old_images/noise.png);
+}
+
+#creditDetails {
+    display: none;
+}
+
+ul#nav_custom li a {
+    background-color: #ff0030;
+}
+
+ul#nav_custom li a.active {
+    background-color: darkred;
+}
+
+/*
+    desktop
+*/
+/*@media only screen and (min-width: 992px) {*/
+/*.big_logo {*/
+/*padding: 10px;*/
+/*margin: 10px;*/
+/*background-color: #ff0030;*/
+/*color: #fff;*/
+/*font-size: 24px;*/
+/*text-align: center;*/
+/*font-weight: bold;*/
+/*line-height: 1.3em;*/
+/*border: 2px dashed #fff;*/
+/*border-radius: 10px;*/
+/*box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);*/
+/*text-shadow: -1px -1px #aa3030;*/
+/*width: 200px;*/
+/*position:fixed; z-index : auto;*/
+/*}*/
+/*}*/
+
+/*
+    mobile
+*/
+/*@media only screen and (max-width: 320px) {*/
+/*.big_logo {*/
+/*width: 100px;*/
+/*height: 100px;*/
+/*border-radius: 50px;*/
+/*font-size: 20px;*/
+/*color: #fff;*/
+/*line-height: 100px;*/
+/*text-align: center;*/
+/*background: #000*/
+/*}*/
+/*}*/
