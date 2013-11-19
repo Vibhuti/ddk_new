@@ -1,0 +1,70 @@
+<div class="row">
+  <div class="large-12 column">
+    <div class="large-7 column">
+      <h2>
+        <span class="slash">//</span>
+        Get in Touch
+      </h2>
+
+      <p>
+        We want to hear from you! Just enter your name, email address, and message into the form below and send away.
+      </p>
+      <br/>
+
+      <h3 style="color:#008080">
+        <span class="slash">//</span>
+        Send a Message
+      </h3>
+      <br/>
+      <%# simple_form_for @contact_us, :url => {:action => 'contact_us'}, :validate => true do |f| %>
+          <%# f.input :name, :label => 'Your good name' %>
+          <%# f.input :email, :label => 'Your awesome email', :placeholder => 'you@awesome.com' %>
+          <%# f.input :description, :label => 'Please tell me', :as => 'text', :input_html => {:style => 'width: 90%', :rows => 10} %>
+          <%# f.button :submit, "Submit", :class => 'btn btn-primary' %>
+      <%# end %>
+    </div>
+    <div class="large-4 column">
+      <div>
+        <h3 style="color:#008080">
+          <span class="slash">//</span>
+          Contact Details
+        </h3>
+
+        <p>
+          <strong>Address</strong>
+          <br/>
+          Bhakti Angan, Sector 12A,
+          Kopar Khairane, Navi Mumbai, Mumbai
+          <br/>
+          <br/>
+          <strong>Other Details</strong>
+          <br/>
+          Facebook:
+          <a href="https://www.facebook.com/RailsForCharity" target="_blank">
+            https://www.facebook.com/RailsForCharity
+          </a>
+          <br/>
+          Twitter Handle:
+          <a href="http://twitter.com/RailsforCharity" target="_blank">
+            @RailsforCharity
+          </a>
+          <br/>
+          Meetup:
+          <a href="http://meetup.com/Rails-for-Charity/" target="_blank">
+            http://meetup.com/Rails-for-Charity/
+          </a>
+          <br/>
+          <span class="icon-envelope"></span>
+          Email:
+          <u>info@railsforcharity.org</u>
+        </p>
+      </div>
+      <br/>
+      <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/?ie=UTF8&amp;ll=19.096979,73.012236&amp;spn=0.026279,0.038409&amp;t=m&amp;z=15&amp;output=embed"></iframe>
+      <br/>
+      <small>
+        <a href="https://maps.google.com/?ie=UTF8&amp;ll=19.096979,73.012236&amp;spn=0.026279,0.038409&amp;t=m&amp;z=15&amp;source=embed" style="color:#0000FF;text-align:left">View
+          Larger Map</a></small>
+    </div>
+  </div>
+</div>

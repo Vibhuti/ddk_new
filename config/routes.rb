@@ -5,6 +5,10 @@ DdkNew::Application.routes.draw do
   root :to => 'sites#index'
   get 'cart' => 'sites#cart#'
   get 'order' => 'sites#order'
+  get 'contact' => 'sites#contact_us'
+  get 'catalog' => 'sites#catalog'
+  get 'about' => 'sites#about'
+  get 'contact_us_create' => 'static_pages#contact_us_create'
 
 
   #%w(index contact_us faq blog supporters contributors how_it_works terms tour about resources).each do |route|

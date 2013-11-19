@@ -33,6 +33,31 @@ group :doc do
 end
 
 gem 'zurb-foundation'
+gem 'simple_form'
+
+# gem 'rspec-rails'
+# gem 'rspec-rails-mocha' #Mocha conflicts with email-spec gem
+# gem 'faker'
+# gem 'populator'
+# gem 'annotate'
+# gem 'hirb'
+# gem 'shoulda-matchers' # shoulda-context causes the error http://stackoverflow.com/q/9523931/238880
+# gem 'factory_girl_rails'  # Used for seeding data also
+#
+#  gem 'rb-fsevent', require: false
+#  gem 'guard-rspec'
+#  gem 'guard-spork'
+#  gem 'guard-annotate'
+#  gem 'guard-bundler'
+#
+#group :test do
+# gem 'email_spec'  # Mocha conflicts with email_spec gem
+# gem 'cucumber-rails', require: false
+# gem 'capybara'
+# gem 'database_cleaner'
+# gem 'launchy'
+# gem 'spork-rails'
+#end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
